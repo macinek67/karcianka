@@ -138,5 +138,6 @@ function walcz() {
         } else if(((jakaKartaP2>12 && jakaKartaP1>12) && jakaKartaP2>jakaKartaP1-13)) {
             wygrana(p1, p2);
         } else czyWojna = true;
+        
     }
 }
