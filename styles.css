@@ -1,0 +1,159 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #1f2632;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #cee3e9;
+    font-weight: bold;
+    overflow: hidden;
+}
+.player1Div {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    top: 82px;
+    left: 25px;
+    background-color: #354052;
+    border-radius: 5px;
+    border-left-style: solid;
+    border-left-color: #eb8f34;
+}
+
+.player2Div {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    background-color: red;
+    top: 82px;
+    left: 1490px;
+    background-color: #354052;
+    border-radius: 5px;
+    border-right-style: solid;
+    border-right-color: #D24D57;
+}
+
+.mainBoard {
+    margin: 0;
+    position: absolute;
+    left: 485px;
+    top: 82px;
+    width: 950px;
+    height: 800px;
+    background: rgba(53, 64, 82, 0.2);
+    border: 3px solid #D24D57;
+    box-shadow: 0px 1px 4px 0px black;
+    border-image: linear-gradient(to right, #eb8f34, #D24D57) 1;
+}
+
+.p1Title {
+    position: absolute;
+    left: 115px;
+    top: -40px;
+    font-size: 35px;
+    color: #eb8f34;
+    text-shadow: 2px 2px #354052;
+}
+
+.p2Title {
+    width: 200px;
+    position: absolute;
+    left: 120px;
+    top: -40px;
+    font-size: 35px;
+    color: #D24D57;
+    text-shadow: 2px 2px #354052;
+}
+
+.startButton {
+    position: absolute;
+    left: 414px;
+    top: 30px;
+    font-size: 35px;
+    color: #cee3e9;
+    font-weight: bold;
+    text-shadow: 2px 2px #354052;
+    background-color: transparent;
+    border-image: linear-gradient(to right, #eb8f34, #D24D57) 1;
+    cursor: pointer;
+}
+
+.cardsStart {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.cardsStart.horizTranslate {
+    transition: 2s;
+    margin-left: 740px !important;
+}
+
+.cardsStart.horizTranslate1 {
+    transition: 2s;
+    margin-left: -740px !important;
+}
+
+.p1Button {
+    position: absolute;
+    font-size: 65px;
+    color: #cee3e9;
+    font-weight: bold;
+    text-shadow: 2px 2px #1f2632;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: #eb8f34;
+    border-style: solid;
+    left: 100px;
+    top: 600px;
+    cursor: pointer;
+}
+
+.p2Button {
+    position: absolute;
+    font-size: 65px;
+    color: #cee3e9;
+    font-weight: bold;
+    text-shadow: 2px 2px #1f2632;
+    background-color: transparent;
+    border-width: 3px;
+    border-color: #D24D57;
+    border-style: solid;
+    left: 120px;
+    top: 600px;
+    cursor: pointer;
+}
+
+.fightButton {
+    position: absolute;
+    left: 415px;
+    bottom: 30px;
+    font-size: 35px;
+    color: #cee3e9;
+    font-weight: bold;
+    text-shadow: 2px 2px #354052;
+    background-color: transparent;
+    border-image: linear-gradient(to right, #eb8f34, #D24D57) 1;
+    cursor: pointer;
+}
+
+.fightCard {
+    left: 1000px;
+    transition: 2s;
+}
+
+.fightCard1 {
+    left: 700px;
+    transition: 2s;
+}
+
+.hhh {
+    left: 476px;
+    transition: 1s;
+}
+
+.hhh1 {
+    left: -265px;
+    transition: 1s;
+}
