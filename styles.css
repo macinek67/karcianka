@@ -108,6 +108,11 @@ body {
     left: 100px;
     top: 600px;
     cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.p1Button:hover {
+    background-color: #c47527;
 }
 
 .p2Button {
@@ -123,6 +128,11 @@ body {
     left: 120px;
     top: 600px;
     cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.p2Button:hover {
+    background-color: #a5353f;
 }
 
 .fightButton {
@@ -136,6 +146,10 @@ body {
     background-color: transparent;
     border-image: linear-gradient(to right, #eb8f34, #D24D57) 1;
     cursor: pointer;
+}
+
+.fightButton:hover {
+    background-image: linear-gradient(to right, #eb8f34, #D24D57);
 }
 
 .fightCard {
@@ -156,4 +170,25 @@ body {
 .hhh1 {
     left: -265px;
     transition: 1s;
+}
+
+.hhhV2 {
+    left: 1955px;
+    transition: 1s;
+}
+
+.hhhV21 {
+    left: 1215px;
+    transition: 1s;
+    position: absolute;
+}
+
+.fightCardV2 {
+    left: 200px;
+    transition: 2s;
+}
+
+.fightCardV21 {
+    left: 700px;
+    transition: 2s;
 }
